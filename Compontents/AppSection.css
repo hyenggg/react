@@ -1,0 +1,34 @@
+
+section{
+  width: 100%;
+  height: 700px;
+}
+
+@keyframes text-ani{
+  from{
+    transform: translateY(8px);
+  }
+  to{
+    transform: translateY(-8px);
+  }
+}
+
+.text{
+  animation: text-ani 1s infinite alternate ease-in-out;
+}
+
+section h2{
+  width:650px;
+  height: 370px;
+  font-size: 100px;
+  line-height: 600px;
+  margin: auto;
+  text-align: center;
+}
+
+section p{
+  width:650px;
+  font-size: 30px;
+  margin: auto;
+  text-align: center;
+}
